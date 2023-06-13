@@ -13,19 +13,21 @@
 
 <body>
   <!-- SECTION  Scoreboard -->
-  <main class="container ">
+  <main class="container">
     <div class="row score-row align-content-center justify-content-center">
       <div class="col-8 board ">
         <div class=" row">
           <div class="col-6 text-center">
             <p class="team-name">HOME</p>
-            <p class="team-score"></p>
+            <p class="team-score">
             <span id="homeBeginScore"></span>
+          </p>
           </div>
           <div class="col-6 text-center">
             <p class="team-name">AWAY</p>
-            <p class="team-score"></p>
+            <p class="team-score">
             <span id="awayBeginScore"></span>
+          </p>
           </div>
         </div>
       </div>
@@ -35,14 +37,14 @@
   <!-- SECTION -footer -->
   <footer>
     <div class="container">
-      <div class="row">
+      <div class="row button-row">
         <div class="col-6 d-flex flex-column justify-content-around">
-          <button onclick="increaseHomeScore()" class="buttons fs-1 rounded">ADD 1</button>
-          <button class="buttons fs-1 rounded">ADD 3</button>
+          <button onclick="increaseHomeScore()" class="buttons fs-1 rounded">HOME +1</button>
+          <button onclick="increaseHomeScore()" class="buttons fs-1 rounded">HOME +3</button>
         </div>
         <div class="col-6 d-flex flex-column justify-content-around ">
-          <button onclick="increaseAwayScore()" class="buttons fs-1 rounded">ADD 1</button>
-          <button class="buttons fs-1 rounded">ADD 3</button>
+          <button onclick="increaseAwayScore()" class="buttons fs-1 rounded">AWAY +1</button>
+          <button onclick="increaseAwayScore()" class="buttons fs-1 rounded">AWAY +3</button>
         </div>
       </div>
   </footer>

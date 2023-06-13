@@ -9,7 +9,7 @@ function increaseHomeScore() {
   run()
 }
 function increaseAwayScore() {
-  homeScore++
+  awayScore++
   console.log('awayScore', awayScore);
 
   run()
